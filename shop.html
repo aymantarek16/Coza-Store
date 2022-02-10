@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <title>Product</title>
+  <!--Fav Icon-->
+  <link rel="shortcut icon"
+    href="https://preview.colorlib.com/theme/cozastore/images/icons/xfavicon.png.pagespeed.ic.wGLrQOgpzk.webp"
+    type="image/x-icon">
+  <!--Fontawesome Cdn-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!--Bootstarp 4 Framework-->
+  <link rel="stylesheet" href="Css/bootstrap.min.css">
+  <!-- Animate Fo Css -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- Css File -->
+  <link rel="stylesheet" href="Css/main.css">
+
+
+</head>
+
+<body>
+    <!-- Loading page -->
+  
+    <div class="loader">
+      <div></div>
+    </div>
+  
+    <!-- Start Page  -->
+    <div class="content">
+
+
+  <!-- Slide Up -->
+  <a class="ScrollUp" href="#" id="ScrollUp">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+  <!-- Section free -->
+  <section class="free">
+    <div class="item">
+      <h2>Free shipping for standard order over $100</h2>
+      <div class="help">
+        <span>Help & FAQs</span>
+        <span>My Account</span>
+        <span>EN</span>
+        <span class="endspan">USD</span>
+      </div>
+    </div>
+  </section>
+  <!-- Section Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light navbar_shop " >
+
+    <div class="container">
+      <img src="img/Coza Store logo.webp" alt="" class="logo">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item " style="position: relative;">
+            <a class="nav-link" href="index.html">Home
+            </a>
+      
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="shop.html">Shop</a>
+          </li>
+
+          <li class="nav-item hots">
+            <a class="nav-link" href="Features.html">Features</a>
+            <div class="hot">hot</div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <li class="nav-item SignUp" >
+
+
+
+          <a class="nav-link" href="#" style="margin-left: 2.1rem;" id="SignUp">SignUp</a>
+
+          <div class="parent-of-form" id="parent_of_form">
+
+            <form action="action_page.php">
+              <div style="position: relative;" class="form-container">
+               
+     
+                  <h2 style="text-align: center;" class="create">Create Account</h2>
+                  <div id="closeit"> &#10006;  </div>
+         
+              
+            
+    
+               <div class="papa">
+                  <label for="username"><b>Username</b></label>
+                  <input id="username" type="text" placeholder="Enter Username" name="email"  required>
+                  <div class="icon-check-circle"></div>
+                  <p id="usermessage"> at least 4 character </p>
+           
+                </div>
+    
+    
+    
+               <div class="papa">
+                <label for="email"><b>Email</b></label>
+                <input id="email" type="email" placeholder="Enter Email" name="email"  required>
+                <div class="icon-check-circle">    </div>
+               <P id="emailmessage">Please enter a correct email address</P>
+               </div>
+    
+    
+               <div class="papa">
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                <div class="icon-check-circle">    </div>
+                <P id="pswmessage">Password must be at least 8 characters with 1 upper case letter and 1 number.</P>
+               </div>
+    
+    
+    
+               <div class="papa">
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="pswrepeat" required>
+                <div class="icon-check-circle">    </div>
+                <P id="repeatmessage">Please make sure your passwords match</P>
+               </div>
+            
+                  <button type="submit" class="registerbtn" id="regbtn" disabled >Register</button>
+              </div>
+            
+     
+            </form>
+      
+      
+          </div>
+
+      </li>
+
+
+
+      </div>
+      <div class="icons">
+        <i class="fal fa-search"></i>
+        <i class="fas fa-shopping-cart" style="transition: all .4s;">
+          <div class="shopnumber">3</div>
+        </i>
+        <i class="far fa-heart">
+          <div class="heartnumber">0</div>
+        </i>
+      </div>
+      <!-- Start secbox -->
+
+      <div class="secbox" id="secbox">
+        <div class="boxsearch">
+          <i class="fal fa-times" id="closeicon"></i>
+          <input type="search" name="search" id="" class="form-control" placeholder="Search...">
+        </div>
+      </div>
+      <!-- End secbox -->
+
+
+      <!-- Start Header Card -->
+      <div class="sec_headercard">
+
+        <div class="yourcard">
+          <span>your card</span>
+          <i class="fal fa-times closeheadercard"></i>
+        </div>
+
+        <div class="items">
+
+          <img src="img/shop 1.webp" alt="" class="wow bounce">
+          <span>white Shirt Pleat </span>
+          <p>1 × $19.00</p>
+
+          <img src="img/shop 2.webp" alt="" class="wow bounce" data-wow-delay="0.5s">
+          <span>Converse All Star </span>
+          <p>1 × $19.00</p>
+
+          <img src="img/shop 3.webp" alt="" class="wow bounce" data-wow-delay="1s">
+          <span>Nixon Porter Leather </span>
+          <p>1 × $19.00</p>
+
+        </div>
+
+
+        <div class="total">
+          <h2>Total: $75.00</h2>
+          <div class="btns">
+            <button class="btn"><a href="Features.html">view card</a></button>
+            <button class="btn">check out</button>
+          </div>
+        </div>
+
+        <!-- End Header Card -->
+
+
+
+
+      </div>
+
+
+
+    </div>
+
+  </nav>
+
+
+  <!-- Section 1 -->
+  <section class="product product_shop">
+    <div class="container">
+      <ol class="list_shop">
+        <li class=" active" id="all">All Products</li>
+        <li id="women">Women</li>
+        <li id="men">Men</li>
+        <li id="bag">Bag</li>
+        <li id="shoes">Shoes</li>
+        <li id="watches">Watches</li>
+      </ol>
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6">
+          <div class="items women">
+
+            <div class="imgbox">
+              <img src="img/xproduct-01.webp" alt="">
+            <button class="btn ">Quick View</button>
+
+            </div>
+
+            <div class="text">
+              <p>Esprit Ruffle Shirt</p>
+              <i class="fal fa-heart"></i>
+
+            </div>
+            <span>$16.64</span>
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-3 col-md-6">
+          <div class="items women">
+
+            <div class="imgbox">
+              <img src="img/xproduct-02.webp" alt="">
+            <button class="btn ">Quick View</button>
+
+            </div>
+
+            <div class="text">
+              <p>Herschel supply</p>
+              <i class="fal fa-heart"></i>
+
+            </div>
+            <span>$35.31 </span>
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-3 col-md-6">
+          <div class="items men">
+
+            <div class="imgbox">
+              <img src="img/xproduct-03.webp" alt="">
+            <button class="btn ">Quick View</button>
+
+            </div>
+
+            <div class="text">
+              <p>Only Check Trouser</p>
+              <i class="fal fa-heart"></i>
+
+            </div>
+            <span>$25.50</span>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="items women">
+
+            <div class="imgbox">
+              <img src="img/xproduct-04.webp" alt="">
+            <button class="btn ">Quick View</button>
+
+            </div>
+
+            <div class="text">
+              <p>Classic Trench Coat</p>
+              <i class="fal fa-heart"></i>
+
+            </div>
+            <span>$75.00</span>
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-3 col-md-6">
+          <div class="items  women">
+
+            <div class="imgbox">
+              <img src="img/xproduct-05.webp" alt="">
+            <button class="btn ">Quick View</button>
+
+            </div>
+
+            <div class="text">
+              <p>Front Pocket Jumper</p>
+              <i class="fal fa-heart"></i>
+
+            </div>
+            <span>$34.75</span>
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-3 col-md-6">
+          <div class="items watches">
+
+            <div class="imgbox ">
+              <img src="img/xproduct-06.webp" alt="">
+            <button class="btn ">Quick View</button>
+
+            </div>
+
+            <div class="text">
+              <p>Vintage Inspired Classic</p>
+              <i class="fal fa-heart"></i>
+
+            </div>
+            <span>$93.20</span>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="items women">
+
+            <div class="imgbox">
+              <img src="img/xproduct-07.webp" alt="">
+            <button class="btn ">Quick View</button>
+
+            </div>
+
+            <div class="text">
+              <p>Shirt in Stretch Cotton</p>
+              <i class="fal fa-heart"></i>
+
+            </div>
+            <span>$52.66</span>
+          </div>
+
+        </div>
+
+
+
+        <div class="col-lg-3 col-md-6">
+          <div class="items women">
+
+            <div class="imgbox">
+              <img src="img/xproduct-08.webp" alt="">
+            <button class="btn ">Quick View</button>
+
+            </div>
+
+            <div class="text">
+              <p>Pieces Metallic Printed</p>
+              <i class="fal fa-heart"></i>
+
+            </div>
+            <span>$18.96</span>
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-3 col-md-6">
+          <div class="items shoes">
+
+            <div class="imgbox">
+              <img src="img/xproduct-09.webp" alt="">
+            <button class="btn ">Quick View</button>
+
+            </div>
+
+            <div class="text">
+              <p>Converse All Star Hi Plimsolls</p>
+              <i class="fal fa-heart"></i>
+
+            </div>
+            <span>$75.00</span>
+          </div>
+
+        </div>
+
+
+
+        <div class="col-lg-3 col-md-6">
+          <div class="items women">
+
+            <div class="imgbox">
+              <img src="img/xproduct-10.webp" alt="">
+            <button class="btn ">Quick View</button>
+
+            </div>
+
+            <div class="text">
+              <p>Femme T-Shirt In Stripe</p>
+              <i class="fal fa-heart"></i>
+
+            </div>
+            <span>$25.85</span>
+          </div>
+
+        </div>
+
+
+
+        <div class="col-lg-3 col-md-6">
+          <div class="items men">
+
+            <div class="imgbox">
+              <img src="img/xproduct-11.webp" alt="">
+            <button class="btn ">Quick View</button>
+
+            </div>
+
+            <div class="text">
+              <p>Herschel supply</p>
+              <i class="fal fa-heart"></i>
+
+            </div>
+            <span>$63.16</span>
+          </div>
+
+        </div>
+
+
+
+
+
+        <div class="col-lg-3 col-md-6">
+          <div class="items bag">
+
+            <div class="imgbox">
+              <img src="img/xproduct-12.webp" alt="">
+            <button class="btn ">Quick View</button>
+
+            </div>
+
+            <div class="text">
+              <p>Bag supply</p>
+              <i class="fal fa-heart"></i>
+
+            </div>
+            <span>$63.15</span>
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-3 col-md-6">
+          <div class="items women">
+
+            <div class="imgbox">
+              <img src="img/xproduct-13.webp" alt="">
+            <button class="btn ">Quick View</button>
+
+            </div>
+
+            <div class="text">
+              <p>T-Shirt with Sleeve
+              </p>
+              <i class="fal fa-heart"></i>
+
+            </div>
+            <span>$18.49</span>
+          </div>
+
+        </div>
+
+
+
+
+        <div class="col-lg-3 col-md-6">
+          <div class="items women">
+
+            <div class="imgbox">
+              <img src="img/xproduct-14.webp" alt="">
+            <button class="btn ">Quick View</button>
+
+            </div>
+
+            <div class="text">
+              <p>Pretty Little Thing</p>
+              <i class="fal fa-heart"></i>
+
+            </div>
+            <span>$54.79</span>
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-3 col-md-6">
+          <div class="items watches">
+
+            <div class="imgbox">
+              <img src="img/xproduct-15.webp" alt="">
+            <button class="btn ">Quick View</button>
+
+            </div>
+
+            <div class="text">
+              <p>Mini Silver Mesh Watch</p>
+              <i class="fal fa-heart"></i>
+
+            </div>
+            <span>$86.85</span>
+          </div>
+
+        </div>
+
+
+
+        <div class="col-lg-3 col-md-6">
+          <div class="items women">
+
+            <div class="imgbox">
+              <img src="img/xproduct-16.webp" alt="">
+            <button class="btn">Quick View</button>
+
+            </div>
+
+            <div class="text">
+              <p>Square Neck Back</p>
+              <i class="fal fa-heart"></i>
+
+            </div>
+            <span>$29.64</span>
+          </div>
+
+        </div>
+
+
+
+
+        <button class="btn load">Load More</button>
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+  </section>
+</div>
+
+<div class="content">
+
+
+  <!-- Section 2 -->
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+
+
+        <div class="col-lg-3 col-md-6">
+          <div class="item">
+            <h2>CATEGORIES</h2>
+            <ul>
+              <li>Women</li>
+              <li>Men</li>
+              <li>Shoes</li>
+              <li> Watches</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6">
+          <div class="item">
+            <h2>HELP</h2>
+            <ul>
+              <li>Track Order</li>
+              <li>Returns</li>
+              <li>Shipping</li>
+              <li>FAQs</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="item">
+            <h2>GET IN TOUCH</h2>
+            <p>Any questions? Let us know in store at 8th floor,
+               379 Hudson St, New York, NY 10018 or call us on (+1) 96
+              716 6879
+
+            </p>
+            <div class="icons">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-whatsapp"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="item">
+            <h2>NEWSLETTER</h2>
+            <input type="email"  class="input1"
+            placeholder="email@example.com">
+            <button class="btn subscribe">subscribe</button>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="visaimg">
+        <img src="img/footer/xicon-pay-01.webp" alt="">
+        <img src="img/footer/xicon-pay-02.webp" alt="">
+        <img src="img/footer/xicon-pay-03.webp" alt="">
+        <img src="img/footer/xicon-pay-04.webp" alt="">
+        <img src="img/footer/xicon-pay-05.webp" alt="">
+      </div>
+      <div class="copyright">
+        <h2>Designed & Developed by <a href="#">Ayman Tarek</a></h2>
+        <span><i class="fal fa-copyright"></i>Copyright 2022 CozaStore All rights reserved.</span>
+      </div>
+    </div>
+  </section>
+
+</div>
+  <!-- CDN For Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"></script>
+  <!-- Animate for js -->
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+  <!-- Jquery File -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <!-- Js File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

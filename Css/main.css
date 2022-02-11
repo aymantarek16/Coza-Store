@@ -1599,7 +1599,7 @@ form{
 }
 
 .features table {
-  width: 100% !important;
+  width: fit-content !important;
 }
 
 .features table img {

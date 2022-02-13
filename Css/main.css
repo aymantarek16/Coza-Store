@@ -2756,9 +2756,24 @@ form{
     border-right: 1px solid #e6e6e6;
     padding: 10px 0;
   }
+  .form .items1 input{
+    width: 90%;
+    margin: auto;
+  }
+
+  .form .items1 textarea{
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .form .items1 button{
+    width: 90%;
+    margin: 20px auto;
+  }
+
 
   .form .items1 i {
-    top: 100px;
+    top: 100px !important;
     left: 40px;
   }
 

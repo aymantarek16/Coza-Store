@@ -367,12 +367,13 @@ form{
   width: 35%;
   transform: scale(0);
   transition: all 0.5s;
-  height: 600px;
+  height: 550px;
   overflow: scroll;
 }
 
 
 @media (max-width: 1000px) {
+
   form{
    
     width: 60%;
@@ -393,6 +394,7 @@ form{
   }
 
   @media (max-width: 600px) {
+
     form{
      
       width: 95%;

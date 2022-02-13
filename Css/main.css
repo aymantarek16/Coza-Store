@@ -2717,6 +2717,7 @@ form{
   }
 }
 
+
 @media (max-width: 600px) {
   /* Mobile M-d Screen */
 
@@ -2737,6 +2738,17 @@ form{
     left: 110px;
   }
 }
+
+@media (min-width: 380px) and (max-width: 400px) {
+
+
+  .form .items1 i {
+    top: 145px !important;
+  }
+
+ 
+}
+
 
 @media (max-width: 300px) {
   /* Galaxy Fold*/

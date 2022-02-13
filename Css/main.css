@@ -336,6 +336,7 @@ a {
 .signin {
   background-color: #f1f1f1;
   text-align: center;
+
 }
 
 
@@ -355,6 +356,7 @@ our codes
   right: 0;
   left: 0;
   z-index: 10;
+  
 
 }
 
@@ -365,6 +367,8 @@ form{
   width: 35%;
   transform: scale(0);
   transition: all 0.5s;
+  height: 600px;
+  overflow: scroll;
 }
 
 

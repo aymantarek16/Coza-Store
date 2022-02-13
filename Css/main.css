@@ -2714,8 +2714,9 @@ form{
 @media (max-width: 600px) {
   /* Mobile M-d Screen */
 
+
   .form .items1 i {
-    top: 180px;
+    top: 180px !important;
     left: 110px;
   }
 

@@ -287,7 +287,7 @@ button:disabled:hover{
 /* Full-width input fields */
 input[type=text], input[type=password], input[type=email]  {
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   margin: 5px  0;
   display: inline-block;
   border: none;
@@ -368,6 +368,23 @@ form{
   transform: scale(0);
   transition: all 0.5s;
   height: auto;
+}
+
+form .sign_in{
+  text-align: center;
+  margin: 20px 0;
+}
+
+form .sign_in h3{
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+form .sign_in h4{
+  font-size: 16px;
+  font-weight: 500;
 }
 
 

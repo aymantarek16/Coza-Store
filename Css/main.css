@@ -367,8 +367,7 @@ form{
   width: 35%;
   transform: scale(0);
   transition: all 0.5s;
-  height: 550px;
-  overflow: scroll;
+  height: auto;
 }
 
 
@@ -390,6 +389,8 @@ form{
   form{
    
     width: 80%;
+    height: 550px;
+    overflow: scroll;
     }
   }
 

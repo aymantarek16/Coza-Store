@@ -36,15 +36,14 @@ li {
   list-style: none;
 }
 
-button:disabled{
+button:disabled {
   opacity: 0.4;
   cursor: not-allowed;
 }
-button:disabled:hover{
+button:disabled:hover {
   opacity: 0.4;
   cursor: not-allowed;
 }
-
 
 .content {
   display: none;
@@ -285,17 +284,21 @@ button:disabled:hover{
 }
 
 /* Full-width input fields */
-input[type=text], input[type=password], input[type=email]  {
+input[type="text"],
+input[type="password"],
+input[type="email"] {
   width: 100%;
   padding: 10px;
-  margin: 5px  0;
+  margin: 5px 0;
   display: inline-block;
   border: none;
   background: #f1f1f1;
   border-radius: 5px;
 }
 
-input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
   background-color: #ddd;
   outline: none;
 }
@@ -308,10 +311,10 @@ hr {
 
 /* Set a style for the submit/register button */
 .registerbtn {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
   padding: 16px 20px;
-  margin: 21px 0  8px;
+  margin: 21px 0 8px;
   border: none;
   cursor: pointer;
   width: 30%;
@@ -324,28 +327,25 @@ hr {
 }
 
 .registerbtn:hover {
-  opacity:1;
+  opacity: 1;
 }
 
 /* Add a blue text color to links */
 a {
-  color: dodgerblue ;
+  color: dodgerblue;
 }
 
 /* Set a grey background color and center the text of the "sign in" section */
 .signin {
   background-color: #f1f1f1;
   text-align: center;
-
 }
-
-
 
 /* =====
 our codes
 =======*/
 
-.parent-of-form{
+.parent-of-form {
   display: none;
   justify-content: center;
   align-items: center;
@@ -356,154 +356,135 @@ our codes
   right: 0;
   left: 0;
   z-index: 10;
-  
-
 }
 
-form{
- background-color: #fff;
- padding-top: 16px;
- border-radius: 5px;
+form {
+  background-color: #fff;
+  padding-top: 16px;
+  border-radius: 5px;
   width: 35%;
   transform: scale(0);
   transition: all 0.5s;
   height: auto;
 }
 
-form .sign_in{
+form .sign_in {
   text-align: center;
   margin: 20px 0;
 }
 
-form .sign_in h3{
+form .sign_in h3 {
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
-
 }
 
-form .sign_in h4{
+form .sign_in h4 {
   font-size: 16px;
   font-weight: 500;
 }
 
-
 @media (max-width: 1000px) {
-
-  form{
-   
+  form {
     width: 60%;
-    }
-    .registerbtn{
-      width: 100%;
-      font-size: 20px;
-    }
   }
-
-
+  .registerbtn {
+    width: 100%;
+    font-size: 20px;
+  }
+}
 
 @media (max-width: 700px) {
-  form{
-   
+  form {
     width: 80%;
     height: 550px;
     overflow: scroll;
-    }
   }
-
-  @media (max-width: 600px) {
-
-    form{
-     
-      width: 95%;
-      padding-top: 40px;
-    }
-    .registerbtn{
-      font-size: 18px;
-    }
-  
-  #closeit{
-    top: 15px !important;
-    }
-    .create{
-      font-size: 25px;
-    }
-    .registerbtn{
-      margin-bottom: 40px;
-    }
-  }
-
-  @media (max-width: 280px) {
-    form{
-     
-      width: 95%;
-      }
-      .create{
-        font-size: 20px;
-      }
-      .registerbtn{
-        font-size: 14px;
-      }
-    
-    }
-
- 
-
-  #closeit{
-     position: absolute;
-     top: 20px;
-     right: 20px;
-
-     font-size: 22px;
-     opacity: 0.75;
-     transition: all 0.5s;
-  }
-
-  #closeit:hover{
-  transform: rotate(180deg);
-    opacity: 1;
-    cursor: pointer;
-    font-weight: bold;
- }
-
- .papa{
-   margin-top: 22px;  
-   position: relative;
- }
-
-
- .icon-check-circle{
-   color: #04AA6D;
-   font-size: 20px;
-   position: absolute;
-   top: 52px;
-   right: 16px;
-
-   opacity: 0;
-   transition: all .5s  ;
- }
-
-
- .papa P{
-   font-size: 14px;
-   color: red;
-
-   display: none;
- }
-
- .registerbtn{
-   background-color: #4f63e7 !important;
- }
-
- .error{
-   border: 2px solid red !important;
- }
-
- .success{
-  border: 2px solid #04AA6D !important;
 }
 
+@media (max-width: 600px) {
+  form {
+    width: 95%;
+    padding-top: 40px;
+  }
+  .registerbtn {
+    font-size: 18px;
+  }
 
+  #closeit {
+    top: 15px !important;
+  }
+  .create {
+    font-size: 25px;
+  }
+  .registerbtn {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 280px) {
+  form {
+    width: 95%;
+  }
+  .create {
+    font-size: 20px;
+  }
+  .registerbtn {
+    font-size: 14px;
+  }
+}
+
+#closeit {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  font-size: 22px;
+  opacity: 0.75;
+  transition: all 0.5s;
+}
+
+#closeit:hover {
+  transform: rotate(180deg);
+  opacity: 1;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.papa {
+  margin-top: 22px;
+  position: relative;
+}
+
+.icon-check-circle {
+  color: #04aa6d;
+  font-size: 20px;
+  position: absolute;
+  top: 52px;
+  right: 16px;
+
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.papa P {
+  font-size: 14px;
+  color: red;
+
+  display: none;
+}
+
+.registerbtn {
+  background-color: #4f63e7 !important;
+}
+
+.error {
+  border: 2px solid red !important;
+}
+
+.success {
+  border: 2px solid #04aa6d !important;
+}
 
 /* Start Search input */
 .navbar .secbox {
@@ -873,7 +854,6 @@ form .sign_in h4{
     width: 100%;
     padding: 40px 20px;
   }
-  
 
   .navbar .secbox .boxsearch i {
     font-size: 30px;
@@ -947,9 +927,9 @@ form .sign_in h4{
 }
 @media (min-width: 1023px) and (max-width: 1024px) {
   .navbar2 .SignUp {
-   position: absolute;
-   top: 19px;
-   right: 380px;
+    position: absolute;
+    top: 19px;
+    right: 380px;
   }
 }
 @media (max-width: 600px) {
@@ -1073,11 +1053,11 @@ form .sign_in h4{
   }
 
   .slide .carousel-control-prev .fa-caret-left {
-   display: none;
+    display: none;
   }
 
   .slide .carousel-control-next .fa-caret-right {
-  display: none;
+    display: none;
   }
 
   .slide .carousel-item .items {
@@ -1105,7 +1085,6 @@ form .sign_in h4{
   .slide {
     height: 30vh;
   }
-
 
   .slide .carousel-item .items {
     width: 60%;
@@ -2735,10 +2714,8 @@ form .sign_in h4{
   }
 }
 
-
 @media (max-width: 600px) {
   /* Mobile M-d Screen */
-
 
   .form .items1 i {
     top: 180px !important;
@@ -2758,15 +2735,10 @@ form .sign_in h4{
 }
 
 @media (min-width: 370px) and (max-width: 500px) {
-
-
   .form .items1 i {
     top: 145px !important;
   }
-
- 
 }
-
 
 @media (max-width: 300px) {
   /* Galaxy Fold*/
@@ -2774,21 +2746,20 @@ form .sign_in h4{
     border-right: 1px solid #e6e6e6;
     padding: 10px 0;
   }
-  .form .items1 input{
+  .form .items1 input {
     width: 90%;
     margin: auto;
   }
 
-  .form .items1 textarea{
+  .form .items1 textarea {
     width: 90%;
     margin: 20px auto;
   }
 
-  .form .items1 button{
+  .form .items1 button {
     width: 90%;
     margin: 20px auto;
   }
-
 
   .form .items1 i {
     top: 100px !important;

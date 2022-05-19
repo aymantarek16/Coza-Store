@@ -2562,6 +2562,7 @@ form .sign_in h4 {
 /* Section 1*/
 .form {
   margin-top: 170px;
+  
 }
 
 .form .items1 {
@@ -2580,20 +2581,26 @@ form .sign_in h4 {
   padding-bottom: 30px;
 }
 
-.form .items1 input {
-  position: relative;
-  width: 100%;
-  height: 50px;
+.form .items1 input,
+.form .items1 textarea{
   font-size: 13px;
   line-height: 1.6923;
   font-family: "Poppins", sans-serif;
   color: #333;
-  padding-right: 30px;
-  padding-left: 62px;
-  border: 1px solid rgba(128, 128, 128, 0.308);
-  color: #333;
+  width: 100%;
+  box-shadow : 7px 7px 10px #cdced1 , -7px -7px 10px #fff;
   display: block;
   outline: none;
+  border: none;
+  position: relative;
+  background-color: #fff;
+
+}
+
+
+.form .items1 input {
+  height: 50px;
+  padding: 10px 30px 10px 62px;
   overflow: visible;
 }
 
@@ -2607,19 +2614,9 @@ form .sign_in h4 {
 
 .form .items1 textarea {
   margin: 20px 0;
-  width: 100%;
-  border: 1px solid rgba(128, 128, 128, 0.308);
-  width: 100%;
   min-height: 199px;
-  font-size: 13px;
-  line-height: 1.6923;
-  color: #333;
   padding: 25px 27px;
-  display: block;
-  outline: none;
   overflow: auto;
-  resize: vertical;
-  font-family: "Poppins", sans-serif;
 }
 
 .form .items1 button {
@@ -2627,7 +2624,7 @@ form .sign_in h4 {
   border-radius: 23px;
   background-color: #222;
   font-family: "Poppins", sans-serif;
-  width: 100%;
+  width: 50%;
   height: 46px;
   font-size: 15px;
   line-height: 1.466667;

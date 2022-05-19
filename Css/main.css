@@ -2562,7 +2562,6 @@ form .sign_in h4 {
 /* Section 1*/
 .form {
   margin-top: 170px;
-  
 }
 
 .form .items1 {
@@ -2582,21 +2581,19 @@ form .sign_in h4 {
 }
 
 .form .items1 input,
-.form .items1 textarea{
+.form .items1 textarea {
   font-size: 13px;
   line-height: 1.6923;
   font-family: "Poppins", sans-serif;
   color: #333;
   width: 100%;
-  box-shadow : 7px 7px 10px #cdced1 , -7px -7px 10px #fff;
+  box-shadow: 7px 7px 10px #cdced1, -7px -7px 10px #fff;
   display: block;
   outline: none;
   border: none;
   position: relative;
   background-color: #fff;
-
 }
-
 
 .form .items1 input {
   height: 50px;
